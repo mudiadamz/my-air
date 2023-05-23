@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <style>
+        .checkin-form {
+            box-shadow: 1px 1px 1px lightgray;
+        }
+
+        .checkin-form .nav-tabs {
+            background: darkblue
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div>
+                <h2>Login</h2>
+            </div>
+            <form class="login-form">
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" name="email" id="email" type="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input class="form-control" name="password" id="password" type="password">
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="keepLogin" value="1"> Keep me login
+                    </label>
+                    <p>Not a member? <a href="reg.html">Register</a> </p>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-lg">Login</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            © 2000-2023 MyOwn Airlines
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="jquery-3.7.0.min.js"></script>
+<script type="text/javascript">
+  $(function () {
+
+  });
+</script>
+</body>
+</html>
